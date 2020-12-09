@@ -2,6 +2,7 @@ import './App.css';
 import { Switch, Link, Route } from "react-router-dom";
 
 import GradientText from "./components/gradientText/GradientText.js";
+import TvContainer from "./components/tvContainer/TvContainer.js"
 
 function App() {
   return (
@@ -13,10 +14,19 @@ function App() {
         <Link to='gradient'>
           GRADIENT
         </Link>
+        <Link to="tv-container">
+          TV Container
+        </Link>
       </nav>
         <Switch>
         <Route path="/gradient">
           <GradientText/>
+        </Route>
+
+        
+
+        <Route path="/tv-container">
+          <TvContainer/>
         </Route>
 
         <Route path="/" >
