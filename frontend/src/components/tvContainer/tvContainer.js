@@ -3,7 +3,7 @@ import './tvContainer.css'
 export default function TvContainer() {
     return(
         <div className="tv-container">
-            Yo this is the TV Container
+            <div className="screen"></div>
         </div>
     )
 }

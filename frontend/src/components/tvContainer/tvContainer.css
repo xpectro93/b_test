@@ -1,8 +1,15 @@
 .tv-container {
     width: 100%;
-    height:100%;
+    height:98%;
     background-image: url("../../assets/tv.png");
     /* background-color: #cccccc; */
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    display:flex;
+}
+.screen {
+    width:85%;
+    height:85%;
+    background-color: aqua;
+    margin:auto auto;
 }
