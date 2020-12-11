@@ -6,66 +6,62 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display:flex;
+    z-index: 100;
 }
-/* .screen {
+.screen {
     width:84.5%;
     height:85%;
-    background-color: rgb(64, 68, 68);
+    /* background-color: rgb(64, 68, 68); */
     margin:auto auto;
     border-radius: 5px;
-} */
+    overflow: hidden;
+}
 /* https://github.com/xpectro93/beep_boop/blob/main/src/assets/noise.png?raw=true */
 
-.screen {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    right: -50%;
-    bottom: -50%;
-    width: 200%;
-    height: 200vh;
+.static {
+    width:284.5%;
+    margin:auto auto;
+    height:285%;
+   left:-100%;
     background: transparent
-      url("../../assets//noise.png") repeat 0 0;
-    background-repeat: repeat;
+    url("../../assets/noise.png") repeat -100% -100%;
     animation: bg-animation 1s infinite;
-    opacity: 1;
-    visibility: visible;
-    background-color: rgb(29, 33, 36);
-    z-index:-100
+    /* position: fixed; */
+    /* overflow: hidden; */
   }
 
   @keyframes bg-animation {
     0% {
-      transform: translate(0, 0);
+      transform: translate(-50%, -50%);
     }
     10% {
-      transform: translate(-5%, -5%);
+      transform: translate(-15%, -15%);
     }
     20% {
-      transform: translate(-10%, 5%);
+      transform: translate(-20%, 5%);
     }
     30% {
-      transform: translate(5%, -10%);
+      transform: translate(5%, -20%);
     }
     40% {
-      transform: translate(-5%, 15%);
+      transform: translate(-25%, 35%);
     }
     50% {
-      transform: translate(-10%, 5%);
+      transform: translate(-30%, 15%);
     }
     60% {
-      transform: translate(15%, 0);
+      transform: translate(35%, 0);
     }
     70% {
-      transform: translate(0, 10%);
+      transform: translate(10, 30%);
     }
     80% {
-      transform: translate(-15%, 0);
+      transform: translate(-35%, 0);
     }
     90% {
-      transform: translate(10%, 5%);
+      transform: translate(20%, 15%);
     }
     100% {
-      transform: translate(5%, 0);
+      transform: translate(15%, 0);
     }
   }

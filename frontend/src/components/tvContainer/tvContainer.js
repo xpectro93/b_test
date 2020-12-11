@@ -2,8 +2,13 @@ import React from "react";
 import './tvContainer.css'
 export default function TvContainer() {
     return(
+        <>
+        
         <div className="tv-container">
-            <div className="screen"></div>
+            <div className="screen">
+                <div className="static"></div>
+            </div>
         </div>
+        </>
     )
 }
