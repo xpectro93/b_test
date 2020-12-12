@@ -17,6 +17,9 @@ function App() {
         <Link to="tv-container">
           TV Container
         </Link>
+        <Link to="3d">
+          3D
+        </Link>
       </nav>
         <Switch>
         <Route path="/gradient">

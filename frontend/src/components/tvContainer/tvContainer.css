@@ -6,7 +6,6 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display:flex;
-    z-index: 100;
 }
 .screen {
     width:84.5%;
@@ -19,15 +18,15 @@
 /* https://github.com/xpectro93/beep_boop/blob/main/src/assets/noise.png?raw=true */
 
 .static {
-    width:284.5%;
+    width:100px;
     margin:auto auto;
-    height:285%;
-   left:-100%;
-    background: transparent
-    url("../../assets/noise.png") repeat -100% -100%;
+    height:100px;
+    background-image: url("../../assets/noise.png");
+    /* background-repeat: repeat; */
+    background-position:center;
+    background-size: 30%;
     animation: bg-animation 1s infinite;
     /* position: fixed; */
-    /* overflow: hidden; */
   }
 
   @keyframes bg-animation {
