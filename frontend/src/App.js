@@ -32,11 +32,17 @@ function App() {
           <TvContainer/>
         </Route>
 
+        <Route path="/3d">
+          <ThreeD/>
+        </Route>
+
         <Route path="/" >
         <div>
           Yo this is home
         </div>
         </Route>
+
+        
         </Switch>
     </div>
   );
