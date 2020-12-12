@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./ThreeD.css"
 export default function ThreeD() {
     return(
         <div> 
