@@ -3,7 +3,7 @@ import { Switch, Link, Route } from "react-router-dom";
 
 import GradientText from "./components/gradientText/GradientText.js";
 import TvContainer from "./components/tvContainer/TvContainer.js"
-
+import ThreeD from './components/threeD/ThreeD.js';
 function App() {
   return (
     <div className="App">
