@@ -3,7 +3,9 @@ import "./ThreeD.css"
 export default function ThreeD() {
     return(
         <div> 
-            This is Three D page yo
+            <div className="square">
+                <div className="circle"></div>
+            </div>
 
         </div>
     )
