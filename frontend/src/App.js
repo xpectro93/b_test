@@ -11,15 +11,15 @@ function App() {
       <NavLink to="/" activeClassName="selected">
           Home
       </NavLink>
-        <Link to='gradient'>
+        <NavLink to='gradient'>
           Gradient
-        </Link>
-        <Link to="tv-container">
+        </NavLink>
+        <NavLink to="tv-container">
           TV Container
-        </Link>
-        <Link to="3d">
+        </NavLink>
+        <NavLink to="3d">
           3D
-        </Link>
+        </NavLink>
       </nav>
         <Switch>
         <Route path="/gradient">
