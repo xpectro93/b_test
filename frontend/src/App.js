@@ -1,5 +1,5 @@
 import './App.css';
-import { Switch, Link, Route } from "react-router-dom";
+import { Switch, NavLink, Route } from "react-router-dom";
 
 import GradientText from "./components/gradientText/GradientText.js";
 import TvContainer from "./components/tvContainer/TvContainer.js"
@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Link to='/'>
-          HOME
-        </Link>
+      <NavLink to="/" activeClassName="selected">
+          Home
+      </NavLink>
         <Link to='gradient'>
-          GRADIENT
+          Gradient
         </Link>
         <Link to="tv-container">
           TV Container
