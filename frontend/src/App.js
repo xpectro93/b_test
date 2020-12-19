@@ -22,7 +22,7 @@ function App() {
         </NavLink>
       </nav>
         <Switch>
-        <Route path="/gradient" activeClassName="selected">
+        <Route path="/gradient">
           <GradientText/>
         </Route>
 
