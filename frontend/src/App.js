@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-      <NavLink to="/" activeClassName="selected">
+      <NavLink exact to="/" activeClassName="selected">
           Home
       </NavLink>
         <NavLink to='gradient' activeClassName="selected">
