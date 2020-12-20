@@ -38,7 +38,7 @@ function App() {
 
         <Route path="/" >
         <div>
-          Yo this is home
+         I give up.
         </div>
         </Route>
 
