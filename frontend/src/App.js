@@ -40,7 +40,7 @@ function App() {
         <div>
          I give up.
          ye
-         
+         y bother
         </div>
         </Route>
 
