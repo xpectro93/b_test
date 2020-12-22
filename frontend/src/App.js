@@ -39,6 +39,8 @@ function App() {
         <Route path="/" >
         <div>
          I give up.
+         ye
+         
         </div>
         </Route>
 
